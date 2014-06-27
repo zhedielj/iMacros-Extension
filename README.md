@@ -14,6 +14,7 @@ Sample
 
 2. import library (these library located at `Exts` sub folder of iMacros working folder)
 
+```js
     imns.include('myutils.js', sandbox);
 
     //call funtions defined in myutils.js
@@ -33,3 +34,4 @@ Sample
     imns.include('jquery.js', sandbox);
 
     alert($('body').html());
+```
