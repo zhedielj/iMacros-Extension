@@ -7,10 +7,11 @@ Sample
 
 1. Now can use `iMacros` object
 
+```js
     var file = imns.FIO.openMacroFile('test.js');
 
     iMacros.playJSFile(file);
-
+```
 
 2. import library (these library located at `Exts` sub folder of iMacros working folder)
 
